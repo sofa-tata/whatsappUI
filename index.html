@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>WhatsApp</title>
+        <link rel="icon" href="img/whatsapp-icon.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+    </head>
+
+    <body>
+
+        <!-- 1. WHOLE WINDOW -->
+
+        <div class="chat_container">
+
+
+                    <!-- 1.1. MONICA'S PROFILE -->
+
+                    <div class="profile_field">
+
+                        <img id="profile-image" class="profile img-top" src="img/monica.jpg" alt="Monica">
+                        <img id="status-button" class="profile icon-small" src="img/status.png" alt="Status">
+                        <img id="message-button" class="profile icon-small" src="img/message_icon.png" alt="Message">
+                        <img id="menu-button" class="profile icon-small" src="img/3dots_menu.png" alt="Menu">
+
+            
+                    </div>
+                    <!-- /MONICA'S PROFILE -->
+
+                    <!-- ⌕ 1.2.SEARCH FIELD -->
+                    <div class="search_field">
+
+                        <!-- <img id="search-button" class="search icon-small" src="img/magnifier.png" alt="Search"> -->
+                        <input id="search-input" type="search" class="search text-input" placeholder="⌕ Search or start new chat">
+
+                    </div>
+                    <!-- /SEARCH FIELD -->
+
+                    <!-- 1.3. CHAT LIST  -->
+                    <section class="chat-list">
+
+                        <!-- 1.3.1. friends-message  -->
+                        <div id="focused" class="message friends">
+
+                            <img class="friends_image img-left" src="img/group_chat_img.jpg" alt="Friends">
+                            <div class="text">
+                                <h3 class="msg-title">f • r • i • e • n • d • s ✨</h3>
+                                <p class="msg-text">✓Guys, the pie is cooling down!</p>
+                            </div>
+                            <time id="left">12:08</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.1. friends-message  -->
+
+                        <!-- 1.3.2. rachel-message  -->
+                        <div class="message rachel">
+
+                            <img class="rachel_image img-left" src="img/rachel.jpg" alt="Rachel">
+                            <div class="text">
+                                <h3 class="msg-title">Rachel</h3>
+                                <p class="msg-text">Thnx, sweetie😘</p>
+                            </div>
+                            <time id="left">10:18</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.2. rachel-message  -->
+
+                        <!-- 1.3.3. ross-message  -->
+                        <div class="message ross">
+
+                            <img class="ross_image img-left" src="img/ross.jpg" alt="Ross">
+                            <div class="text">
+                                <h3 class="msg-title">Ross</h3>
+                                <p class="msg-text">✓Save me from her!</p>
+                            </div>
+                            <time id="left">yesterday</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.3. ross-message  -->
+
+                        <!-- 1.3.4. chandler-message  -->
+                        <div class="message chandler">
+
+                            <img class="chandler_image img-left" src="img/chandler.jpg" alt="Chandler">
+                            <div class="text">
+                                <h3 class="msg-title">Chandler</h3>
+                                <p class="msg-text">Love u❤️</p>
+                            </div>
+                            <time id="left">yesterday</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.4. chandler-message  -->
+
+                        <!-- 1.3.5. mom-message  -->
+                        <div class="message mom">
+
+                            <img class="mom_image img-left" src="img/mom.jpg" alt="Mom">
+                            <div class="text">
+                                <h3 class="msg-title">Mom</h3>
+                                <p class="msg-text">Nice earrings...</p>
+                            </div>
+                            <time id="left">yesterday</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.5. mom-message  -->
+
+                        <!-- 1.3.6. joey-message  -->
+                        <div class="message joey">
+
+                            <img class="joey_image img-left" src="img/joey.jpg" alt="Joey">
+                            <div class="text">
+                                <h3 class="msg-title">Joey</h3>
+                                <p class="msg-text">She's driving me crazy!🤩</p>
+                            </div>
+                            <time id="left">yesterday</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.6. joey-message  -->
+
+                        <!-- 1.3.7. phibs-message  -->
+                        <div class="message phoebe">
+
+                            <img class="phoebe_image img-left" src="img/phoebe.jpg" alt="Phoebe">
+                            <div class="text">
+                                <h3 class="msg-title">Phibs</h3>
+                                <p class="msg-text">✓Ok😉</p>
+                            </div>
+                            <time id="left">yesterday</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.7. phibs-message  -->
+                        
+                        <!-- 1.3.8. dad-message  -->
+                        <div class="message dad">
+
+                            <img class="dad_image img-left" src="img/dad.jpg" alt="Dad">
+                            <div class="text">
+                                <h3 class="msg-title">Dad</h3>
+                                <p class="msg-text">:)</p>
+                            </div>
+                            <time id="left">Sunday</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.8. joey-message  -->
+
+                        <!-- 1.3.9. neighbour-message  -->
+                        <div class="message heckles">
+
+                            <img class="heckles_image img-left" src="img/heckles.jpg" alt="Mr.Heckles">
+                            <div class="text">
+                                <h3 class="msg-title">Mr.Heckles</h3>
+                                <p class="msg-text">✓Sorry, mister Heckles!</p>
+                            </div>
+                            <time id="left">Sunday</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.9. neighbour-message  -->
+
+                        <!-- 1.3.10. boss-message  -->
+                        <div class="message boss">
+
+                            <img class="boss_image img-left" src="img/boss.jpg" alt="Boss">
+                            <div class="text">
+                                <h3 class="msg-title">Boss</h3>
+                                <p class="msg-text">Tomorrow at 10</p>
+                            </div>
+                            <time id="left">Saturday</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.10. boss-message  -->
+
+                        <!-- 1.3.11. nana-message  -->
+                        <div class="message nana">
+
+                            <img class="nana_image img-left" src="img/nana.jpg" alt="Nana">
+                            <div class="text">
+                                <h3 class="msg-title">Nana</h3>
+                                <p class="msg-text">✓Of course!</p>
+                            </div>
+                            <time id="left">Friday</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.11. nana-message  -->
+
+                        <!-- 1.3.12. janice-message  -->
+                        <div class="message janice">
+
+                            <img class="janice_image img-left" src="img/janice.jpg" alt="Janice">
+                            <div class="text">
+                                <h3 class="msg-title">Janice</h3>
+                                <p class="msg-text">Totally!</p>
+                            </div>
+                            <time id="left">Friday</time>
+                            <img id="message-options-button" class="icon-xs" src="img/arrow-down.png" alt="Options">
+
+                        </div>
+                        <!-- /1.3.11. nana-message  -->
+
+
+                        
+                    </section>
+                    <!-- /1.3. CHAT LIST  -->
+                
+
+                    <!-- 1.4. GROUP CHAT TITLE  -->
+
+                    <div class="group_chat_name">
+
+                        <img class="gcn img-top group_chat_image" src="img/group_chat_img.jpg" alt="Friends">
+                        <div class="gcn gcn-text">
+                            <h3 class="msg-title">f • r • i • e • n • d • s ✨</h3>
+                            <p class="msg-text">Rachel, Ross, Chandler, Phibs, Joey</p>
+                        </div>
+                        <img id="gcn-search-button" class="icon-small" src="img/magnifier.png" alt="Search">
+                        <img id="gcn-menu-button" class="icon-small" src="img/3dots_menu.png" alt="Menu">
+
+                    </div>
+                    <!-- /GROUP CHAT TITLE  -->
+
+
+                    <!-- 1.5. CHAT  -->
+                    <div class="chat">
+                        
+                        <div class="friends-msg">
+                            <h3 id="msg-title-green">Ross</h3>
+                            <p>Mon, I'm on my way!</p>
+                            <time id="right">17:18</time>
+                        </div>
+
+                        <div class="friends-msg">
+                            <h3 id="msg-title-light-blue">Chandler</h3>
+                            <p>Me too</p>
+                            <time id="right">17:20</time>
+                        </div>
+
+                        <div class="me-msg">
+                            <p>Guys, the pie is cooling down!🥧</p>
+                            <time id="right">17:32</time>
+                        </div>
+
+                        <div class="me-msg">
+                            <p>Hurry up!</p>
+                            <time id="right">17:32</time>
+                        </div>
+
+                        <div class="friends-msg">
+                            <h3 id="msg-title-blue">Rachel</h3>
+                            <img id="chat-image" src="img/common_photo.jpg" alt="Friends">
+                            <time id="right">17:23</time>
+                        </div>
+
+                        <div class="friends-msg">
+                            <h3 id="msg-title-pink">Rachel</h3>
+                            <p>Just look at us 🤣</p>
+                            <time id="right">17:24</time>
+                        </div>
+
+                        <div class="me-msg">
+                            <p>Rach, where did you find that?😅</p>
+                            <time id="right">17:32</time>
+                        </div>
+
+                        <div class="friends-msg">
+                            <h3 id="msg-title-blue">Rachel</h3>
+                            <p>Literally everywhere on the Internet🤣🤣🤣</p>
+                            <time id="right">17:24</time>
+                        </div>
+                        
+                        
+
+                    </div>
+                    <!-- /CHAT  -->
+
+                    <!-- 1.6. INPUT FIELD  -->
+                    <div class="chat_form">
+
+                        <img id="emoji" class="msg icon-big" src="img/smile.png" alt="Emoji">
+                        <img id="attach" class="msg icon-big" src="img/attachment.png" alt="Attach file">
+                        <!-- <div class="text-input" id="message-box" placeholder="Type a message" contenteditable> -->
+                        <input id="message-box" type="text" class="msg text-input" placeholder="Type a message">
+                        <!-- </div> -->
+                        <img id="microphone" class="msg micro" src="img/micro.png" alt="Microphone"> 
+
+                    </div>
+                    <!-- /INPUT FIELD -->
+
+
+
+        </div>
+        <!-- /WHOLE WINDOW -->
+
+    </body>
+</html>
