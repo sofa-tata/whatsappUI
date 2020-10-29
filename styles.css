@@ -114,7 +114,6 @@ img {
     grid-row: search-start / search-end;
     background-color: #f6f6f6; 
     display: flex;
-    flex-shrink: 0;
     position: relative;
     transition: 0.2s;
     cursor: text;
