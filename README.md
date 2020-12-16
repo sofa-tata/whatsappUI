@@ -1,6 +1,6 @@
 # whatsappUI
 Recreating *group chat screen* of Whatsapp Web
-Made for desktop resolutions (1920*1080, 1366*768)
+Made for desktop resolutions (1920x1080, 1366x768)
 
 You can see the implementation here: https://sofa-tata.github.io/whatsappUI/
 
